@@ -708,7 +708,7 @@ args = { console = "internalConsole", attachCommands = [ "platform select remote
 
 [[grammar]]
 name = "c"
-source = { git = "https://github.com/tree-sitter/tree-sitter-c", rev = "7fa1be1b694b6e763686793d97da01f36a0e5c12" }
+source = { git = "https://codeberg.org/maribu/tree-sitter-c-riot", rev = "c4cc8b4fec6606ba1674ec75b087d889eccf5b6c" }
 
 [[language]]
 name = "cpp"
