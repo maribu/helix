@@ -206,4 +206,16 @@
    "__STDC__" "__STDC_VERSION__" "__STDC_HOSTED__"
    "__VA_ARGS__" "__VA_OPT__" "__cplusplus"))
 
+(attribute_specifier) @attribute
+
+(attribute_specifier_param) @variable.parameter
+
+((attribute_specifier_access
+    (attribute_specifier_param) @constant.builtin)
+  (#any-of? @constant.builtin
+    "read_only"
+    "read_write"
+    "write_only"
+    "none"))
+
 (comment) @comment
