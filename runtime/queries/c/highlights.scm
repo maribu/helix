@@ -163,4 +163,6 @@
 (attribute
   name: (identifier) @attribute)
 
+(attribute_specifier) @attribute
+
 (comment) @comment
