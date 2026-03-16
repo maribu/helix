@@ -5428,3 +5428,18 @@ comment-token = "//"
 [[grammar]]
 name = "tql"
 source = { git = "https://github.com/tenzir/tree-sitter-tql", rev = "d3b3b2699bc09fd0c63e2c13f15f6e474665c62e" }
+
+[[language]]
+name = "doxygen"
+scope = "source.doxygen"
+injection-regex = "doxygen"
+file-types = [
+  "doxygen",
+  "dox",
+  { glob = "doc.md" },
+]
+indent = { tab-width = 4, unit = "    " }
+
+[[grammar]]
+name = "doxygen"
+source = { git = "https://codeberg.org/maribu/tree-sitter-doxygen", rev = "5f5878535e2c9e321d05c58f0d90f2e31081ea60d4fd20b84bfc02ebd552d682" }
