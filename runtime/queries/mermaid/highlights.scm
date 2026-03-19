@@ -51,6 +51,7 @@
  "direction"
  "subgraph"
 
+ "packet"
  ] @keyword
 
 [
@@ -185,3 +186,6 @@
  ] @keyword
 
 (er_attribute_comment) @string
+
+(packet_field_bits) @operator
+(packet_field_label) @string
