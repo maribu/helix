@@ -3489,7 +3489,7 @@ indent = { tab-width = 4, unit = "    " }
 
 [[grammar]]
 name = "mermaid"
-source = { git = "https://github.com/monaqa/tree-sitter-mermaid", rev = "d787c66276e7e95899230539f556e8b83ee16f6d" }
+source = { git = "https://github.com/maribu/tree-sitter-mermaid", rev = "9e0b6c8d9bc6d11cd235d2c14a703ffb883a6b7b" }
 
 [[language]]
 name = "matlab"
