@@ -2215,12 +2215,12 @@ comment-token = "#"
 indent = { tab-width = 4, unit = "    " }
 rulers = [51, 73]
 text-width = 72
-grammar = "gitcommit"
+grammar = "git-commit"
 language-servers = [ "commit-lsp" ]
 
 [[grammar]]
-name = "gitcommit"
-source = { git = "https://github.com/gbprod/tree-sitter-gitcommit", rev = "49715a9e6f19ce3d33b875aacdd6ad8ddaee0ffe" }
+name = "git-commit"
+source = { git = "https://codeberg.org/maribu/tree-sitter-git-commit", rev = "d574a5948b867bd5b299db97e10d2b7a75ec5baf45398e22a10cd191f323a9c0" }
 
 [[language]]
 name = "git-notes"
