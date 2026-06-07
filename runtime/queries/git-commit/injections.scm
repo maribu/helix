@@ -1,6 +1,6 @@
-((diff) @injection.content
- (#set! injection.language "diff"))
+((subject) @injection.content
+  (#set! injection.language "markdown.inline"))
 
-((rebase_command) @injection.content
- (#set! injection.include-children)
- (#set! injection.language "git-rebase"))
+((message) @injection.content
+  (#set! injection.language "markdown")
+  (#set! injection.include-children))
