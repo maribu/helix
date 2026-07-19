@@ -12,3 +12,12 @@
     . (string
         (string_content) @injection.content))
   (#set! injection.language "regex"))
+
+; inject docstrings as rst
+((string
+    (string_start) @start
+    (string_content) @injection.content
+    (string_end) @end)
+  (#any-of? @start "\"\"\"" "'''")
+  (#eq? @start @end)
+  (#set! injection.language "rst"))
